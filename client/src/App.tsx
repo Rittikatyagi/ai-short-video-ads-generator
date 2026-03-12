@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import SoftBackdrop from './components/SoftBackdrop';
 import Features from './sections/Features';
 
+
 function App() {
 	return (
 		<>

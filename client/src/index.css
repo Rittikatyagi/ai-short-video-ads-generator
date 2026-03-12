@@ -80,3 +80,14 @@ theme {
 .animate-fadeUp {
   animation: fadeUp 0.8s ease forwards;
 }
+
+.reveal {
+  transform: translateY(120px);
+  opacity: 0;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 0.7s ease-out;
+}
