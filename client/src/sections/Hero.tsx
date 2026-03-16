@@ -17,7 +17,7 @@ export default function Hero() {
         "Short form video ads",
         "Reels & TikTok ready",
         "Commercial usage rights",
-        "No  needed"
+        "No technical skills needed"
     ];
 
     return (
