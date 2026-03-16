@@ -8,7 +8,7 @@ export default function Features() {
                 <Title
                     title="Features"
                     heading="Built for modern brands"
-                    description="our AI instantly produces professional lifestyle imagery and short-form videos optimized for commercials & Reels."
+                    description="Our AI instantly produces professional lifestyle imagery and short-form videos optimized for commercials & Reels."
                 />
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 animate-fadeUp ">

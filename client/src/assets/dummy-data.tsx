@@ -87,10 +87,10 @@ export const footerLinks = [
     {
         title: "Quick Links",
         links: [
-            { name: "Home", url: "#" },
-            { name: "Features", url: "#" },
-            { name: "Pricing", url: "#" },
-            { name: "FAQ", url: "#" }
+            { name: "Home", url: "#home" },
+            { name: "Features", url: "#features" },
+            { name: "Pricing", url: "#pricing" },
+            { name: "FAQ", url: "#faq" },
         ]
     },
     {
@@ -100,12 +100,12 @@ export const footerLinks = [
             { name: "Terms of Service", url: "#" }
         ]
     },
-    {
-        title: "Connect",
-        links: [
-            { name: "Twitter", url: "#" },
-            { name: "LinkedIn", url: "#" },
-            { name: "GitHub", url: "#" }
-        ]
-    }
+];
+
+export const socialLinks = [
+  { name: "X", url: "#" },
+  { name: "Github", url: "#" },
+  { name: "LinkedIn", url: "#" },
+  { name: "YouTube", url: "#" },
+  { name: "Instagram", url: "#" }
 ];
