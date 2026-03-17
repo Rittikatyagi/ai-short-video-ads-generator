@@ -1,5 +1,5 @@
 import { ArrowRightIcon } from "lucide-react";
-import { GhostButton } from "../components/Buttons";
+import { GhostButton } from "./Buttons";
 
 
 export default function CTA() {
@@ -24,6 +24,7 @@ export default function CTA() {
             <GhostButton className="px-8 py-3 gap-2 hover:scale-105 transition-transform">
               Try It Free <ArrowRightIcon size={20} />
             </GhostButton>
+
 
           </div>
         </div>
