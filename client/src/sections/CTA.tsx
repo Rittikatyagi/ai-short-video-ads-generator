@@ -1,5 +1,5 @@
 import { ArrowRightIcon } from "lucide-react";
-import { GhostButton } from "./Buttons";
+import { GhostButton } from "../components/Buttons";
 
 
 export default function CTA() {

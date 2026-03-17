@@ -91,3 +91,18 @@ theme {
   opacity: 1;
   transition: all 0.7s ease-out;
 }
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-80px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slideDown {
+  animation: slideDown 0.5s ease-out;
+}

@@ -1,11 +1,16 @@
-import Hero from './sections/Hero';
+import { Route, Routes } from 'react-router-dom';
+import Footer from './components/Footer';
 import LenisScroll from './components/lenis';
 import Navbar from './components/Navbar';
 import SoftBackdrop from './components/SoftBackdrop';
-import Features from './sections/Features';
-import Pricing from './sections/Pricing';
-import Faq from './sections/Faq';
-import Footer from './components/Footer';
+import './index.css';
+import Home from './pages/Home';
+import Genetator from './pages/Genetator';
+import Result from './pages/Result';
+import MyGenerations from './pages/MyGenerations';
+import Community from './pages/Community';
+import Plans from './pages/Plans';
+import Loading from './pages/Loading';
 
 
 function App() {
@@ -14,11 +19,16 @@ function App() {
 			<SoftBackdrop />
 			<LenisScroll />
 			<Navbar />
-			<Hero />
-			<Features />
-			<Pricing />
-			<Faq />
-			{/* <CTA /> */}
+			<Routes>
+				<Route path='/' element={<Home />} />
+				<Route path='/generate' element={<Genetator />} />
+				<Route path='/result/:projectId' element={<Result />} />
+				<Route path='/my-generations' element={<MyGenerations />} />
+				<Route path='/community' element={<Community />} />
+				<Route path='/plans' element={<Plans />} />
+				<Route path='/loading' element={<Loading />} />
+			</Routes>
+			
 			<Footer />
 		</>
 	);
